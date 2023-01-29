@@ -1,0 +1,121 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+
+    @font-face {
+        font-family: 'Varela Round', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    }
+
+    :root {
+        --blue1: #4cc9f0;
+        --blue2: #4895ef;
+        --blue3: #4361ee;
+        --blue4: #3f37c9;
+        --blue5: #3a0ca3;
+        --purple1: #480ca8;
+        --purple2: #560bad;
+        --purple3: #7209b7;
+        --violet: #b5179e;
+        --pink: #f72585;
+
+        --black: #1A1A1A;
+        --grey1: #b5b6ba;
+        --grey2: #7a7d85;
+        --grey3: #404145;
+        --white: #FFFFFF;
+    }
+    ::placeholder {
+        color: var(--blue1);
+        opacity: 1;
+    }
+    ::selection {
+        background-color: var(--blue1);
+        color: var(--blue5);
+    }
+
+    *{
+        box-sizing: border-box;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        /* font-family: 'bar', sans-serif; */
+    }
+
+    html, textarea {
+        color: var(--blue1);
+        direction: rtl;
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+    }
+    
+    body {
+        background-color: var(--white);
+        color: var(--blue1);
+        height: 100vh;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p {
+        /* פונט באנגלית */
+        /* font-family: 'Lato', sans-serif; */
+        font-family: 'Varela Round', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        cursor: pointer;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex-end {
+        justify-content: flex-end;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .align-center {
+        align-items: center;
+    }
+
+    .space-evenly {
+        justify-content:space-evenly;
+    }
+
+    .justify-center{
+        justify-content: center;
+    }
+    .justify-end{
+        justify-content: flex-end;
+    }
+
+    .absolute {
+        position: absolute;
+    }
+    .relative {
+        position: relative;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+  
+`;
+
+export default GlobalStyle;
