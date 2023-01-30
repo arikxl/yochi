@@ -2,7 +2,9 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div>יוכי(לוגו)!</div>
+      <div className="align-center flex flex-1  ">
+          LOGO!
+    </div>
   )
 }
 

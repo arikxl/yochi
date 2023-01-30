@@ -85,6 +85,10 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
     }
 
+    .flex-1{
+        flex: 1;
+    }
+
     .flex-end {
         justify-content: flex-end;
     }

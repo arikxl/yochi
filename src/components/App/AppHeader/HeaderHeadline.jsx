@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { SmallText } from '../../../styles/FontStyles';
 import Logo from '../Logo';
+import SocialIcons from '../SocialIcons';
+import WhatsAppBtn from '../../buttons/WhatsAppBtn';
 
 const HeaderHeadlineStyled = styled.div`
     width: 100%;
@@ -10,17 +12,21 @@ const HeaderHeadlineStyled = styled.div`
     height:3.8rem;
     align-items: center;
     display: flex;
+
+    @media (max-width:500px) {
+        .wrapper{
+            width: 96%;
+        }
+    }
 `;
 
 const HeaderHeadline = () => {
     return (
         <HeaderHeadlineStyled>
-            <div className="w-80 flex space-between margin-auto">
+            <div className="w-80 flex space-between margin-auto wrapper">
                 <Logo />
-                <SmallText>א'-ה' 08:00-20:00
-                    
-                </SmallText>
-                <div>1</div>
+                <SocialIcons />
+                <WhatsAppBtn />
             </div>
         </HeaderHeadlineStyled>
     )
