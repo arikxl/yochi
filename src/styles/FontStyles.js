@@ -25,8 +25,8 @@ export const Heading1 = styled.h1`
 `;
 
 export const SmallText = styled.p`
-    font-size: .875rem;
-    line-height: 1.3125rem;
+    font-size: 1.1rem;
+    /* line-height: 1.3125rem; */
     font-weight: 400;
 `;
 

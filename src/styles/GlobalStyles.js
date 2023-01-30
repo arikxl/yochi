@@ -77,6 +77,10 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
     }
 
+    .w-80{
+        width: 80%;
+    }
+
     .flex {
         display: flex;
     }
@@ -115,7 +119,24 @@ const GlobalStyle = createGlobalStyle`
     .column-reverse {
         flex-direction: column-reverse;
     }
-  
+
+    .margin-auto{
+        margin: 0 auto;
+    }
+    
+    .red{
+        background-color:red;
+    }
+
+    .green{
+
+        background-color: green;
+
+    }
+
+    .yellow{
+        background-color: yellow;
+    }
 `;
 
 export default GlobalStyle;
