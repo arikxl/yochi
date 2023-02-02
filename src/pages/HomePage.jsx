@@ -1,12 +1,16 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import Testimonies from '../components/Testimonies'
+import TreatmentsHome from '../components/TreatmentsHome'
 
 
 const HomePage = () => {
   return (
-      <div>
-          <h1>יוכי!</h1>    
-    
-      </div>
+      <>  
+      <Hero />
+      <TreatmentsHome />
+      <Testimonies />
+      </>
   )
 }
 

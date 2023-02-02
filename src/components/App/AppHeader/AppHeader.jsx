@@ -7,7 +7,7 @@ const AppHeader = () => {
   return (
     <div>
       <HeaderHeadline />
-      AppHeader
+      {/* AppHeader */}
     </div>
   )
 }

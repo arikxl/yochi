@@ -5,7 +5,7 @@ import Logo from '../Logo';
 import SocialIcons from '../SocialIcons';
 import WhatsAppBtn from '../../buttons/WhatsAppBtn';
 
-const HeaderHeadlineStyled = styled.div`
+const HeaderHeadlineStyled = styled.header`
     width: 100%;
     color: white;
     background-color: var(--blue1);
