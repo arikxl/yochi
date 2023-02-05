@@ -1,0 +1,33 @@
+.qq {
+  position: relative;
+  font-weight: 600;
+
+  padding:12px 50px;
+  outline: none;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  z-index: 10;
+     margin: 3% auto;
+    display: flex; 
+    font-size: 2rem;
+    color: white;
+}
+
+.qq:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 7px;
+  left: 7px;
+  height: 100%;
+  background-color: var(--pink);
+  z-index: -1;
+  transition: all 0.35s;
+  border-radius: inherit;
+}
+
+.qq:hover:after {
+  top: 0px;
+  left: 0px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SmallText } from '../../../styles/FontStyles';
+
 import Logo from '../Logo';
 import SocialIcons from '../SocialIcons';
 import WhatsAppBtn from '../../buttons/WhatsAppBtn';

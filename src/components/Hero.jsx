@@ -1,9 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import HeaderMenu from './HeaderMenu';
+import { useWindowWidth } from '../hooks/useWindowWidth';
+import { SideBarBtn } from './buttons/SideBarBtn';
+import HeroBtn from './buttons/HeroBtn';
+import HeroBtn1 from './buttons/HeroBtn1';
+import HeroBtn2 from './buttons/HeroBtn2';
 
 const HeroStyled = styled.section`
-    background-color: red;
     
     background-image: linear-gradient(
     rgba(130, 150, 143, 0.4),
@@ -15,16 +20,37 @@ const HeroStyled = styled.section`
     height:calc( 100vh - 3.8rem);
     object-fit: cover;
     width: 100%;
+
+    h1, h2, h4{
+      text-align: center;
+      color: white;
+    }
+
+    h1{
+      margin:7% 0 0;
+      font-size: 4rem;
+    }
+    h2{
+      font-size:2rem;
+    }
+    h4{
+      font-size:1.5rem;
+    }
 `;
 
 const Hero = () => {
+
+  const windowWidth = useWindowWidth();
+
   return (
     <HeroStyled>
-      <HeaderMenu />
+
+      {windowWidth > 500 ? <HeaderMenu />  : <SideBarBtn/>}
+   
       <h1>יוכי עקיבא</h1>
       <h2>מגע מרפא</h2>
       <h4>רפואה משלימה ואינטגרטיבית</h4>
-      <button>לזימון תור</button>
+      <HeroBtn2 />
     </HeroStyled>
   )
 }
