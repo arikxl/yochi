@@ -19,13 +19,13 @@ const HeroStyled = styled.section`
 
 const Hero = () => {
   return (
-      <HeroStyled>
-          <HeaderMenu />
-          <h1>יוכי עקיבא</h1>
-          <h2>מגע מרפא</h2>
-          <h4>רפואה משלימה ואינטגרטיבית</h4>
-          <button>לזימון תור</button>
-      </HeroStyled>
+    <HeroStyled>
+      <HeaderMenu />
+      <h1>יוכי עקיבא</h1>
+      <h2>מגע מרפא</h2>
+      <h4>רפואה משלימה ואינטגרטיבית</h4>
+      <button>לזימון תור</button>
+    </HeroStyled>
   )
 }
 

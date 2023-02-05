@@ -4,15 +4,45 @@ import styled from 'styled-components'
 
 import { headerMenuData } from '../data/data'
 
+const HeaderMenuStyled = styled.section`
+    display: flex;
+    width: 99%;
+    margin: 0 auto;
+    padding-top: 0.5%;
+    justify-content: center;
+
+    a{
+        background-color:var(--blue2);
+        flex:1;
+        text-align: center;
+        color: white;
+        /* height: 40px; */
+        align-items: center;
+        padding: 0.5% 0;
+        display: flex;
+        justify-content: center;
+        font-size: 1.1rem;
+
+        :hover{
+            background-color:var(--blue3)
+        }
+    }
+
+
+    a:not(:last-child){
+        margin-left: 0.5%;
+    }
+`;
+
 const HeaderMenu = () => {
     return (
-        <div>
+        <HeaderMenuStyled>
             {headerMenuData.map(item => (
                 <Link to={item.link}>
                     <p key={item.id}>{item.title}</p>
                 </Link>
             ))}
-        </div>
+        </HeaderMenuStyled>
     )
 }
 
