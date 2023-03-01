@@ -11,7 +11,7 @@ export const headerMenuData = [
     },
     {
         id: 101,
-        title:' קצת עלי',
+        title:'המסע שלי',
         link: 'about',
     },
     {
