@@ -2,9 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');  
     @font-face {
         font-family: 'Varela Round', sans-serif;
-        src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') format('woff2');
     }
 
     :root {

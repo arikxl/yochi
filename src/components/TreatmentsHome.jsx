@@ -40,6 +40,7 @@ const TreatmentCardStyled = styled.article`
     width: 90%;  
     border-bottom : 6px solid var(--pink); 
     border-left : 6px solid var(--pink); 
+    border-bottom : 6px solid  linear-gradient(90deg, blue 0%, rgba(253,29,29,1) 100%);
     margin-bottom: 15%;  
       height: 50vh;
   }
