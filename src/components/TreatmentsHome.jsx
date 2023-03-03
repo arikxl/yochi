@@ -13,11 +13,19 @@ const Top4Home = styled.section`
   padding: 5% 0;
   justify-content: space-between;
   gap: 2%;
+  @media (max-width: 400px){
+    padding: 0;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: -15%; */
+  }
 `;
 
 const TreatmentCardStyled = styled.article`
   width: 24%;
-  /* background-color: red; */
   background-image:url( ${props => props.img});
   height: 70vh;
   border-bottom : 4px solid var(--pink); 
@@ -28,11 +36,23 @@ const TreatmentCardStyled = styled.article`
   flex-direction: column;
   justify-content: space-between;
 
+  @media (max-width: 400px){
+    width: 90%;  
+    border-bottom : 6px solid var(--pink); 
+    border-left : 6px solid var(--pink); 
+    margin-bottom: 15%;  
+      height: 50vh;
+  }
+
   h3{
     margin: 10%;
     font-size: 180%;
     color: var(--pink);
     text-shadow: 2px 2px black;
+
+    @media (max-width: 400px){
+    font-size: 220%;
+    }
   }
   
   button{
@@ -47,7 +67,13 @@ const TreatmentCardStyled = styled.article`
     border-bottom : 2px solid var(--pink); 
     border-left : 2px solid var(--pink); 
     border-radius: 0 5px 0 15px;
+    
     transition: 0.3s;
+    @media (max-width: 400px){
+      font-size: 1.3rem;
+      padding: 10px 30px;
+
+    }
     
     :hover{
       transform: scale(1.1);

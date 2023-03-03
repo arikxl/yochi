@@ -7,7 +7,7 @@ import  './btn2.css'
     display: flex; */
 const HeroBtn2 = () => {
   return (
-      <button class="qq">לזימון תור </button>
+      <button className="qq">לזימון תור </button>
   )
 }
 

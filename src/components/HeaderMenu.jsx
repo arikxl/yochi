@@ -10,6 +10,10 @@ const HeaderMenuStyled = styled.section`
     margin: 0 auto;
     padding-top: 0.5%;
     justify-content: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
 
     a{
         background-color:var(--blue2);
@@ -38,8 +42,8 @@ const HeaderMenu = () => {
     return (
         <HeaderMenuStyled>
             {headerMenuData.map(item => (
-                <Link to={item.link}>
-                    <p key={item.id}>{item.title}</p>
+                <Link to={item.link} key={item.id}>
+                    <p >{item.title}</p>
                 </Link>
             ))}
         </HeaderMenuStyled>

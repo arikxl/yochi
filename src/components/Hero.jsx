@@ -10,6 +10,7 @@ import HeroBtn2 from './buttons/HeroBtn2';
 
 const HeroStyled = styled.section`
     
+    position: relative;
     background-image: linear-gradient(
     rgba(130, 150, 143, 0.4),
     rgba(130, 150, 143, 0.5)
@@ -17,9 +18,13 @@ const HeroStyled = styled.section`
     url('https://media.giphy.com/media/d9YlzCyOsRjJbKqn0s/giphy.gif');
     background-position: center;
     background-size: cover;
-    height:calc( 100vh - 3.8rem);
+    /* height:calc( 100vh - 3.8rem); */
+    height: 100vh ;
     object-fit: cover;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
     h1, h2, h4{
       text-align: center;
@@ -27,7 +32,7 @@ const HeroStyled = styled.section`
     }
 
     h1{
-      margin:7% 0 0;
+      /* margin:7% 0 0; */
       font-size: 4rem;
     }
     h2{
@@ -45,11 +50,13 @@ const Hero = () => {
   return (
     <HeroStyled>
 
-      {windowWidth > 500 ? <HeaderMenu />  : <SideBarBtn/>}
-   
-      <h1>יוכי עקיבא</h1>
-      <h2>מגע מרפא</h2>
-      <h4>רפואה משלימה ואינטגרטיבית</h4>
+      {windowWidth > 500 ? <HeaderMenu /> : <SideBarBtn />}
+
+      <div style={{marginTop: '4%'}}>
+        <h1>יוכי עקיבא</h1>
+        <h2>מגע מרפא</h2>
+        <h4>רפואה משלימה ואינטגרטיבית</h4>
+      </div>
       <HeroBtn2 />
     </HeroStyled>
   )

@@ -10,27 +10,27 @@ export const headerMenuData = [
         link: 'contact',
     },
     {
-        id: 101,
+        id: 103,
         title:'המסע שלי',
         link: 'about',
     },
     {
-        id: 101,
+        id: 104,
         title: 'תמונות אנטומיה',
         link: 'anatomyImgs',
     },
     {
-        id: 101,
+        id: 105,
         title: 'סרטוני אנטומיה',
         link: 'anatomyVids',
     },
     {
-        id: 101,
+        id: 106,
         title: 'רפואה משלימה',
         link: 'alternative',
     },
     {
-        id: 101,
+        id: 107,
         title: 'תרגילים להקלה',
         link: 'exercises',
     },
