@@ -5,10 +5,8 @@ import HeaderHeadline from './HeaderHeadline';
 
 const AppHeader = () => {
   return (
-    <div>
       <HeaderHeadline />
-      {/* AppHeader */}
-    </div>
+      // {/* AppHeader */}
   )
 }
 
