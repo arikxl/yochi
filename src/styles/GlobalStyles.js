@@ -46,15 +46,14 @@ const GlobalStyle = createGlobalStyle`
         list-style: none;
         margin: 0;
         padding: 0;
-        /* font-family: 'bar', sans-serif; */
     }
 
     html, textarea {
         color: var(--blue1);
         direction: rtl;
+        font-family: 'Fredoka', sans-serif;
         font-family: 'Varela Round', sans-serif;
         line-height: 1.6;
-        font-family: 'Fredoka', sans-serif;
     }
     
     body {
@@ -67,15 +66,15 @@ const GlobalStyle = createGlobalStyle`
         /* פונט באנגלית */
         margin: 0;
         padding: 0;
-        font-family: 'Varela Round', sans-serif;
         font-family: 'Fredoka', sans-serif;
+        font-family: 'Varela Round', sans-serif;
         font-weight: normal;
     }
 
     button {
         cursor: pointer;
+        font-family: 'Fredoka', sans-serif;
         font-family: 'Varela Round', sans-serif;
-            font-family: 'Fredoka', sans-serif;
     }
 
     a {
