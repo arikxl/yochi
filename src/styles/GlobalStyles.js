@@ -41,8 +41,8 @@ const GlobalStyle = createGlobalStyle`
         opacity: 1;
     }
     ::selection {
-        background-color: var(--blue1);
-        color: var(--blue5);
+        background-color: var(--natural);
+        color: var(--dark);
     }
 
     *{
@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     html, textarea {
-        color: var(--blue1);
+        color: var(--dark);
         direction: rtl;
         font-family: 'Varela Round', sans-serif;
         line-height: 1.6;
@@ -61,7 +61,7 @@ const GlobalStyle = createGlobalStyle`
     
     body {
         background-color: var(--white);
-        color: var(--blue1);
+        color: var(--dark);
         height: 100vh;
     }
     
