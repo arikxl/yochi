@@ -2,14 +2,23 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
-    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');  
-    @font-face {
+    /* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');   */
+    /* @font-face {
+    } */
         font-family: 'Varela Round', sans-serif;
         src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') format('woff2');
 
-    }
 
     :root {
+        --natural: #D2B48C;
+        --dark: #654321;
+        --wood: #8B6B23;
+        --green: #006400;
+        /* Dark olive green: #556B2F
+        Forest green: #228B22
+        Dark green: #006400
+        Olive drab: #3C341F */
+
         --blue1: #4cc9f0;
         --blue2: #4895ef;
         --blue3: #4361ee;

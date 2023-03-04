@@ -16,7 +16,6 @@ const Testimonies = () => {
     <TestimoniesStyled>
       <video autoPlay loop muted
         src="https://cdn.coverr.co/videos/coverr-touching-plants-7850/1080p.mp4" />
-      Testimonies
     </TestimoniesStyled>
   )
 }

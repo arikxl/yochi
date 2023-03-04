@@ -15,7 +15,7 @@ const Icons = styled.section`
     }
     *:hover{
         /* fill:var(--pink); */
-        filter: drop-shadow(0 0 3px var(--pink));
+        filter: drop-shadow(0 0 3px var(--wood));
     }
 
     @media (max-width: 500px){

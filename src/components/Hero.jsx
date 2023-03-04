@@ -57,7 +57,8 @@ const Hero = () => {
         <h2>מגע מרפא</h2>
         <h4>רפואה משלימה ואינטגרטיבית</h4>
       </div>
-      <HeroBtn2 />
+      <HeroBtn />
+      
     </HeroStyled>
   )
 }

@@ -16,7 +16,7 @@ const HeaderMenuStyled = styled.section`
     right: 0;
 
     a{
-        background-color:var(--blue2);
+        background-color:var(--wood);
         flex:1;
         text-align: center;
         color: white;
@@ -28,7 +28,7 @@ const HeaderMenuStyled = styled.section`
         font-size: 1.1rem;
 
         :hover{
-            background-color:var(--blue3)
+            background-color:var(--dark)
         }
     }
 

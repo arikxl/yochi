@@ -4,7 +4,6 @@ import { topTreatments } from '../data/data';
 
 
 const Top4Home = styled.section`
-  /* height: 70vh; */
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -26,8 +25,8 @@ const TreatmentCardStyled = styled.article`
   width: 24%;
   background-image:url( ${props => props.img});
   height: 70vh;
-  border-bottom : 4px solid var(--pink); 
-  border-left : 4px solid var(--pink); 
+  border-bottom : 4px solid var(--natural); 
+  border-left : 4px solid var(--natural); 
   border-radius: 0 10px 0 30px;
   background-size: cover;
   display: flex;
@@ -36,8 +35,8 @@ const TreatmentCardStyled = styled.article`
 
   @media (max-width: 400px){
     width: 90%;  
-    border-bottom : 6px solid var(--pink); 
-    border-left : 6px solid var(--pink); 
+    border-bottom : 6px solid var(--natural); 
+    border-left : 6px solid var(--natural); 
     margin-bottom: 15%;  
       height: 50vh;
   }
@@ -45,8 +44,8 @@ const TreatmentCardStyled = styled.article`
   h3{
     margin: 10%;
     font-size: 180%;
-    color: var(--pink);
-    text-shadow: 2px 2px black;
+    color: var(--natural);
+    text-shadow: 2px 2px var(--black);
 
     @media (max-width: 400px){
     font-size: 220%;
@@ -58,12 +57,12 @@ const TreatmentCardStyled = styled.article`
     align-self: flex-end;
     background-color: white;
     border: none;
-    color: var(--pink);
+    color: var(--wood);
     font-size: 1rem;
     font-weight: bold;
     padding: 10px 24px;
-    border-bottom : 2px solid var(--pink); 
-    border-left : 2px solid var(--pink); 
+    border-bottom : 2px solid var(--wood); 
+    border-left : 2px solid var(--wood); 
     border-radius: 0 5px 0 15px;
     
     transition: 0.3s;

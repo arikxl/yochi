@@ -8,7 +8,7 @@ import WhatsAppBtn from '../../buttons/WhatsAppBtn';
 const HeaderHeadlineStyled = styled.header`
     width: 100%;
     color: white;
-    background-color: var(--blue1);
+    background-color: var(--natural);
     height:3.8rem;
     align-items: center;
     display: flex;

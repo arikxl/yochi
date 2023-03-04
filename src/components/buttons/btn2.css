@@ -22,7 +22,7 @@
   top: 7px;
   left: 7px;
   height: 100%;
-  background-color: var(--pink);
+  background-color: var(--green);
   z-index: -1;
   transition: all 0.35s;
   border-radius: inherit;
