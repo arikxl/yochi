@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { topTreatments } from '../data/data';
-import HeroBtn from './buttons/HeroBtn';
-import HeroBtn1 from './buttons/HeroBtn1';
-import HeroBtn2 from './buttons/HeroBtn2';
+
 
 const Top4Home = styled.section`
   /* height: 70vh; */
@@ -83,6 +81,9 @@ const TreatmentCardStyled = styled.article`
 const TreatmentsHome = () => {
   return (
     <Top4Home>
+      {/* <video autoPlay loop muted
+        src="https://cdn.coverr.co/videos/coverr-touching-plants-7850/1080p.mp4" /> */}
+
       {
         topTreatments.map((t) => (
           <TreatmentCardStyled key={t.id} img={t.img}>

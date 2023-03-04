@@ -2,16 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
-
-     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
-        /* font-family: 'Fredoka', sans-serif; */ */
-
     @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');  
     @font-face {
         font-family: 'Varela Round', sans-serif;
         src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') format('woff2');
-        src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
-         font-family: 'Fredoka', sans-serif;
+
     }
 
     :root {
@@ -51,7 +46,6 @@ const GlobalStyle = createGlobalStyle`
     html, textarea {
         color: var(--blue1);
         direction: rtl;
-        font-family: 'Fredoka', sans-serif;
         font-family: 'Varela Round', sans-serif;
         line-height: 1.6;
     }
@@ -66,14 +60,12 @@ const GlobalStyle = createGlobalStyle`
         /* פונט באנגלית */
         margin: 0;
         padding: 0;
-        font-family: 'Fredoka', sans-serif;
         font-family: 'Varela Round', sans-serif;
         font-weight: normal;
     }
 
     button {
         cursor: pointer;
-        font-family: 'Fredoka', sans-serif;
         font-family: 'Varela Round', sans-serif;
     }
 

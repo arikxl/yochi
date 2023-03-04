@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-import { headerMenuData } from '../data/data'
+import { headerMenuData } from '../../../data/data'
 
 const HeaderMenuStyled = styled.section`
     display: flex;

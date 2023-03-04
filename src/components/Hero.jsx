@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import HeaderMenu from './HeaderMenu';
+import HeaderMenu from './App/AppHeader/HeaderMenu';
 import { useWindowWidth } from '../hooks/useWindowWidth';
 import { SideBarBtn } from './buttons/SideBarBtn';
 import HeroBtn from './buttons/HeroBtn';
@@ -52,7 +52,7 @@ const Hero = () => {
 
       {windowWidth > 500 ? <HeaderMenu /> : <SideBarBtn />}
 
-      <div style={{marginTop: '4%'}}>
+      <div style={{ marginTop: '4%' }}>
         <h1>יוכי עקיבא</h1>
         <h2>מגע מרפא</h2>
         <h4>רפואה משלימה ואינטגרטיבית</h4>
