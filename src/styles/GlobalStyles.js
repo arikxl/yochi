@@ -2,10 +2,16 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
+
+     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+        /* font-family: 'Fredoka', sans-serif; */ */
+
     @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');  
     @font-face {
         font-family: 'Varela Round', sans-serif;
         src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') format('woff2');
+        src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+         font-family: 'Fredoka', sans-serif;
     }
 
     :root {
@@ -48,6 +54,7 @@ const GlobalStyle = createGlobalStyle`
         direction: rtl;
         font-family: 'Varela Round', sans-serif;
         line-height: 1.6;
+        font-family: 'Fredoka', sans-serif;
     }
     
     body {
@@ -58,15 +65,17 @@ const GlobalStyle = createGlobalStyle`
     
     h1, h2, h3, h4, h5, h6, p {
         /* פונט באנגלית */
-        /* font-family: 'Lato', sans-serif; */
-        font-family: 'Varela Round', sans-serif;
         margin: 0;
         padding: 0;
+        font-family: 'Varela Round', sans-serif;
+        font-family: 'Fredoka', sans-serif;
+        font-weight: normal;
     }
 
     button {
         cursor: pointer;
         font-family: 'Varela Round', sans-serif;
+            font-family: 'Fredoka', sans-serif;
     }
 
     a {

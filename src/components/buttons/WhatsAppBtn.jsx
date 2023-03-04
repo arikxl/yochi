@@ -9,7 +9,7 @@ const InstaBtnStyled = styled.button`
   padding: 5px;
   position: relative;
   width: 6.2em;
-  height: 2em;
+  height: 2.1em;
   transition: 0.5s;
   font-size: 17px;
   border-radius: 0.4em;
