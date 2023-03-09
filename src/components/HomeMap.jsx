@@ -31,8 +31,8 @@ const HomeMapMeStyled = styled.section`
 export default function HomeMap() {
     const defaultProps = {
         center: {
-            lat: 10.99835602,
-            lng: 77.01502627
+            lng: 31.256791,
+            lat: 34.769960
         },
         zoom: 11
     };
