@@ -41,7 +41,7 @@ export default function HomeMap() {
         // Important! Always set the container height explicitly
         <HomeMapMeStyled>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: "AIzaSyBAzU70vH-GXEkt6k3NmH6KUdXfw70Y17o" }}
+                bootstrapURLKeys={{ key: process.env.GOOGLE_MAP_API_KEY }}
                 defaultCenter={defaultProps.center}
                 defaultZoom={defaultProps.zoom}
             >

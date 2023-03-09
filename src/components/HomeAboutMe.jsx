@@ -81,7 +81,8 @@ const HomeAboutMe = () => {
                         ועוזרים לנפש.
                     </p>
                 </HomeAboutInfo>
-                <img src="https://res.cloudinary.com/arikxl/image/upload/v1678397386/Ella2023/nreck5ibidrhifu4iud9.jpg" alt="Yochi Akiva" />
+                <img src="https://res.cloudinary.com/arikxl/image/upload/v1678397386/Ella2023/nreck5ibidrhifu4iud9.jpg"
+                    alt="Yochi Akiva" loading='lazy'/>
             </HomeAboutMeWrapper>
         </HomeAboutMeStyled>
     )
