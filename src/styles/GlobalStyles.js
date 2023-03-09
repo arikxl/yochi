@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
         --natural: #D2B48C;
         --dark: #654321;
         --wood: #8B6B23;
-        --green: #006400;
+        --green: #25D366;
         /* Dark olive green: #556B2F
         Forest green: #228B22
         Dark green: #006400

@@ -82,8 +82,11 @@
 
 .hBtn:hover {
   background: transparent;
-  color: var(--green);
+  color: var(--white);
+  text-shadow: 0 3px 3px var(--black);
   box-shadow: 0 0 25px var(--natural);
+    border: 3px solid var(--natural);
+
 }
 
 .hBtn:hover .star-1 {

@@ -81,7 +81,7 @@ const HomeAboutMe = () => {
                         ועוזרים לנפש.
                     </p>
                 </HomeAboutInfo>
-                <img src="https://scontent.ftlv23-1.fna.fbcdn.net/v/t39.30808-6/330296982_727114529008763_766018988062981454_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Ra7LSeR6XY8AX_0wXnv&_nc_ht=scontent.ftlv23-1.fna&oh=00_AfD9HJg_GynMOOYU9J68fsf05qyNaoFr_gOk4q4EGg8nXA&oe=6407C5F2" alt="Yochi Akiva" />
+                <img src="https://res.cloudinary.com/arikxl/image/upload/v1678397386/Ella2023/nreck5ibidrhifu4iud9.jpg" alt="Yochi Akiva" />
             </HomeAboutMeWrapper>
         </HomeAboutMeStyled>
     )

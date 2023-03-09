@@ -11,20 +11,13 @@ import HeroBtn2 from './buttons/HeroBtn2';
 const HeroStyled = styled.section`
     
     position: relative;
-    /* background-image: linear-gradient(
-    rgba(130, 150, 143, 0.4),
-    rgba(130, 150, 143, 0.5)
-      ),
-    url('https://media.giphy.com/media/d9YlzCyOsRjJbKqn0s/giphy.gif'); */
-
-
     video{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-    position: absolute;
-  }
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+      position: absolute;
+    }
     background-position: center;
     background-size: cover;
     /* height:calc( 100vh - 3.8rem); */

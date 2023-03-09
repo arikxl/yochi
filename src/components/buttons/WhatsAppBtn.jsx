@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const InstaBtnStyled = styled.button`
@@ -54,7 +53,6 @@ const InstaBtnStyled = styled.button`
 
 const WhatsAppBtn = () => {
 
-  const navigate = useNavigate()
   const MSG = 'שלום יוכי, אשמח לקבוע תור. תוכלי לחזור אלי בבקשה?';
   const WHATSAPP_NUM = '+972506860169';
 
