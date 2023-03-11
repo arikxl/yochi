@@ -2,10 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import GoogleMapReact from 'google-map-react';
 import { createSomething } from '../utils/string';
-// import 'dotenv/config'
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
-// dotenv.config()
 
 const HomeMapMeStyled = styled.section`
     
@@ -16,7 +14,6 @@ const HomeMapMeStyled = styled.section`
         height: auto;
     } */
 `;
-// { process.env.REACT_APP_NAME }
 
 
 // const HomeMap = () => {
@@ -37,7 +34,6 @@ export default function HomeMap() {
         zoom: 11
     };
 
-    console.log('createSomething():', createSomething())
     return (
         // Important! Always set the container height explicitly
         <HomeMapMeStyled>

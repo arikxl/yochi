@@ -1,28 +1,14 @@
 export function createSomething() {
-//   const array1 = ['A', 'I', 'z', 'a', 'S', 'y'];
-//   const array2 = ['B', 'C', 'D', 'E', 'F', 'G', 'H'];
-//   const array3 = ['I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q'];
-//   const array4 = ['R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-//   const array5 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
-//   const string1 = array1.join('') + array4.join('') + array2.join('');
-//   const string2 = array3.join('') + array5.join('') + array4.join('');
-//   const reversedString = string2.split('').reverse().join('');
-//   const apiKey = string1 + '-' + reversedString + '-' + string2;
+    const test = ["G", "-", "H", "v", "0", "7", "U"];
+    const arik = [ "6", "K", "U", "d", "X", "f", "w", "7", "0", "Y", "1", "7", "o"];
+    const loola = ["A", "I", "z", "a", "S", "y", "B", "A", "z"];
+    const Yonska = ["X", "E", "k", "t", "6", "k", "3", "N", "m", "H", "x", "X", "e", "5"];
 
-//   return apiKey;
-   const array1 = ['A', 'I', 'z'];
-  const array2 = ['B', 'C', 'D', 'E', 'F', 'G', 'H'];
-  const array3 = ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q'];
-  const array4 = ['R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-  const array5 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    const str = loola.concat(test.reverse(), Yonska.slice(0, loola.length%18-arik.length), arik).slice(0).join("");
 
-  const string1 = array1.concat(array2.slice(-2)).join('') + '-' + array5.slice(-2).concat(array4.slice(-2)).reverse().join('');
-  const string2 = array3.join('') + '-' + array5.slice(-3).concat(array4.slice(-3)).reverse().join('');
+    return str;
 
-  return string1 + '-' + string2;
 }
-
-
 
 
