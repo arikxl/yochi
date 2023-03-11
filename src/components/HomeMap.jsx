@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 import GoogleMapReact from 'google-map-react';
-// import * as dotenv from 'dotenv'
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+// import 'dotenv/config'
 
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 // dotenv.config()
 
 const HomeMapMeStyled = styled.section`
@@ -15,8 +15,7 @@ const HomeMapMeStyled = styled.section`
         height: auto;
     } */
 `;
-// const API_KEY = process.env.GOOGLE_MAP_API_KEY;
-
+// { process.env.REACT_APP_NAME }
 
 
 // const HomeMap = () => {
@@ -41,7 +40,7 @@ export default function HomeMap() {
         // Important! Always set the container height explicitly
         <HomeMapMeStyled>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: process.env.GOOGLE_MAP_API_KEY }}
+                bootstrapURLKeys={{ key: process.env.REACT_APP_NAME }}
                 defaultCenter={defaultProps.center}
                 defaultZoom={defaultProps.zoom}
             >
